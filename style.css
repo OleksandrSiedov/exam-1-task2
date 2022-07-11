@@ -15,12 +15,12 @@ body {
 /* ---------- Header ---------- */
 
 .header {
-position: fixed;
-width: 100%;
-top: 0;
-left: 0;
-background-color: #FFFFFF;
-z-index: 99; 
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  z-index: 99;
 }
 
 .header:before {
@@ -330,8 +330,6 @@ z-index: 99;
   background-image: url(img/sequrity-code-bg-image.svg);
   background-repeat: no-repeat;
 }
-
-.card__img {}
 
 .card__content {
   width: 230px;
@@ -699,12 +697,15 @@ z-index: 99;
     height: fit-content;
   }
 
+}
 
-  element.style {
-    gap: 30px;
-  }
+element.style {
+  gap: 30px;
+}
 
-  @media (max-width: 1199px) .container {
+@media (max-width: 1199px) {
+
+  .container {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -734,16 +735,16 @@ z-index: 99;
     gap: 80px;
   }
 
-.footer {
-margin: 100px 0 0 0;
-}
+  .footer {
+    margin: 100px 0 0 0;
+  }
 
-.footer__navigation {
-  margin: 50px 0 0 0;
-}
+  .footer__navigation {
+    margin: 50px 0 0 0;
+  }
 
-.socials {
-  flex-direction: column;
-}
+  .socials {
+    flex-direction: column;
+  }
 
 }
