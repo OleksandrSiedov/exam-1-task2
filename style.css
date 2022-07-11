@@ -14,6 +14,25 @@ body {
 
 /* ---------- Header ---------- */
 
+.header {
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+background-color: #FFFFFF;
+z-index: 99; 
+}
+
+.header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: rgba(75, 93, 104, 0.1);
+}
+
 .header__container {
   padding: 20px 0;
   display: flex;
@@ -114,7 +133,7 @@ body {
 } */
 
 .first-screen {
-  margin: 100px 0;
+  padding: 200px 0 100px 0;
 }
 
 .first-screen__container {
