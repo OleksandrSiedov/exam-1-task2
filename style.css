@@ -377,6 +377,7 @@ body {
 }
 
 .testimonials-title {
+  margin-bottom: 80px;
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -404,7 +405,6 @@ body {
 .review-card {
   width: 465px;
   height: 300px;
-  margin-top: 80px;
   border: 1px solid #9C69E2;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -654,3 +654,77 @@ body {
 }
 
 /* ----------------------- */
+
+@media (max-width: 1199px) {
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .first-screen {
+    margin: 30px 0;
+  }
+
+  .first-screen__container {
+    background-size: 70%;
+  }
+
+  .first-screen h1 {
+    height: fit-content;
+    font-size: 60px;
+  }
+
+  .first-screen p {
+    margin: 40px 0;
+    width: 320px;
+    height: fit-content;
+  }
+
+
+  element.style {
+    gap: 30px;
+  }
+
+  @media (max-width: 1199px) .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .about__container {
+    gap: 30px;
+  }
+
+  .about__img {
+    margin-right: 0;
+  }
+
+  .features {
+    margin: 100px 0 0 0;
+  }
+
+  .features__cards {
+    justify-content: center;
+  }
+
+  .testimonials {
+    margin: 100px 0 0 0;
+  }
+
+  .testimonials__cards {
+    justify-content: center;
+    gap: 80px;
+  }
+
+.footer {
+margin: 100px 0 0 0;
+}
+
+.footer__navigation {
+  margin: 50px 0 0 0;
+}
+
+.socials {
+  flex-direction: column;
+}
+
+}
